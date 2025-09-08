@@ -36,6 +36,7 @@ router.post("/", protectRoute, async (req, res) => {
 
   }
 });
+
 // pagination => infinite loading
 router.get("/", protectRoute, async (req, res) => {
   // example call from react native - frontend
